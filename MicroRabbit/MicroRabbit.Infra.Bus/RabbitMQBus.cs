@@ -105,7 +105,7 @@ namespace MicroRabbit.Infra.Bus
             {
                 await ProccesEvent(eventName, message);
             }
-            catch (Exception e)
+            catch
             {
 
             }
