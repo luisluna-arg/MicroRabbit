@@ -1,19 +1,16 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
-
   <ItemGroup>
     <Compile Remove="NewFolder\**" />
     <EmbeddedResource Remove="NewFolder\**" />
     <None Remove="NewFolder\**" />
   </ItemGroup>
-
   <ItemGroup>
-    <Folder Include="Bus\" />
     <Folder Include="Commands\" />
-    <Folder Include="Events\" />
   </ItemGroup>
-
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="10.0.1" />
+  </ItemGroup>
 </Project>
