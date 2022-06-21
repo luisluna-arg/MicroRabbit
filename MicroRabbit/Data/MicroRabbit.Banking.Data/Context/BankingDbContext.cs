@@ -1,6 +1,5 @@
 ﻿using MicroRabbit.Banking.Domain.Models;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Design;
 
 namespace MicroRabbit.Banking.Data.Context
 {
