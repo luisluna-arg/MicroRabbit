@@ -41,7 +41,7 @@ namespace MicroRabbit.Infra.IoC
 
             // Application Services
             services.AddTransient<IAccountService, AccountService>();
-            services.AddTransient<ITransferService, TransferService>();
+            services.AddScoped<ITransferService, TransferService>();
 
             // Data
             services.AddTransient<IAccountRepository, AccountRepository>();
