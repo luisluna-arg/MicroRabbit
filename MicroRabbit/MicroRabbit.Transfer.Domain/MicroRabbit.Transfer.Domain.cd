@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MicroRabbit.Transfer.Domain.EventHandlers.TransferEventHandler" BaseTypeListCollapsed="true">
+    <Position X="7.25" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>EventHandlers\TransferEventHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MicroRabbit.Transfer.Domain.Events.TransferCreatedEvent">
+    <Position X="5.25" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAACAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\TransferCreatedEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MicroRabbit.Transfer.Domain.Models.TransferLog">
+    <Position X="3.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABCAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Models\TransferLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="MicroRabbit.Transfer.Domain.Interfaces.ITransferRepository">
+    <Position X="1.5" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ITransferRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MicroRabbit.Banking.Domain.Commands.CreateTransferCommand">
+    <Position X="2" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\CreateTransferCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MicroRabbit.Banking.Domain.Commands.TransferCommand">
+    <Position X="2" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAACAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\TransferCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MicroRabbit.Banking.Domain.Events.TransferCreatedEvent">
+    <Position X="4.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAACAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\TransferCreatedEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MicroRabbit.Banking.Domain.CommandHandlers.TransferCommandHandler" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAABAAAAAAAAA=</HashCode>
+      <FileName>CommandHandlers\TransferCommandHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MicroRabbit.Banking.Domain.Models.Account">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAIAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Account.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="MicroRabbit.Banking.Domain.Interfaces.IAccountRepository">
+    <Position X="4.5" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IAccountRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
